@@ -3,7 +3,7 @@ import { logo } from "../src/assets/images/images";
 
 export default function Login() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-pink-200 via-purple-200 to-blue-200 p-4">
       <div className="w-full max-w-md bg-white/30 backdrop-blur-xl border border-white/40 rounded-3xl shadow-2xl p-8">
 
         {/* Logo */}

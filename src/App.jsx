@@ -1,13 +1,12 @@
 import React from 'react'
-// import Login from '../pages/login'
-import Sidebar from './components/Sidebar'
+import DashboardLayout from './layouts/DashboardLayout'
 
 
 export default function App() {
   return (
     <>
     {/* <Login/> */}
-    <Sidebar />
+    <DashboardLayout />
    
     </>
   )

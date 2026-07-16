@@ -42,7 +42,7 @@ export default function Sidebar() {
       {/* Sidebar */}
       <div
         className={`fixed top-0 left-0 z-50 h-screen w-80
-        bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500
+        bg-linear-to-br from-slate-900 via-indigo-900 to-slate-900
         text-white shadow-2xl
         transform transition-transform duration-300
         ${

@@ -5,6 +5,7 @@ import MainLayout from "./layouts/MainLayout";
 import Dashboard from "./pages/Dashboard";
 import Books from "./pages/‌‌‌‌Books";
 import Students from "./pages/Students";
+import IssuePage from "./pages/IssuePage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/books" element={<Books />} />
           <Route path="/Students" element={<Students />} />
+          <Route path="/IssuePage" element={<IssuePage />} />
         </Route>
 
       </Routes>

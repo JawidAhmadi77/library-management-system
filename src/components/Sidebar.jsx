@@ -82,7 +82,7 @@ export default function Sidebar() {
             <span>Students</span>
           </NavLink>
 
-          <NavLink to="/IssueBooks" className={linkClass}>
+          <NavLink to="/IssuePage" className={linkClass}>
             <ClipboardDocumentListIcon className="h-6 w-6" />
             <span>Issue Books</span>
           </NavLink>

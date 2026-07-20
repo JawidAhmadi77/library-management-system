@@ -1,0 +1,34 @@
+export const issuedBooks = [
+ {
+   id:1,
+   student:"Ahmad",
+   book:"React.js",
+   issueDate:"2026-07-15",
+   returnDate:"2026-07-22",
+   status:"Issued"
+ },
+ {
+   id:2,
+   student:"Sami",
+   book:"Python",
+   issueDate:"2026-072-25",
+   returnDate:"2026-07-22",
+   status:"Returned"
+ },
+ {
+   id:3,
+   student:"Rahmat",
+   book:"JavaScript",
+   issueDate:"2026-07-15",
+   returnDate:"2026-08-22",
+   status:"Issued"
+ },
+ {
+   id:4,
+   student:"Jawid",
+   book:"Network",
+   issueDate:"2026-02-15",
+   returnDate:"2026-10-22",
+   status:"Returned"
+ },
+];

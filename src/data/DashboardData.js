@@ -22,3 +22,8 @@ export const latestBooks = [
     },
 
 ]
+
+
+export const fileData =[
+    {}
+]

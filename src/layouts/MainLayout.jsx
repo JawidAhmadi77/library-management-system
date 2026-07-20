@@ -2,9 +2,11 @@ import React from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import Dashboard from "../pages/Dashboard";
+import { Outlet } from "react-router-dom";
 
 
-export default function DashboardLayout(){
+
+export default function MainLayout(){
 return(
 <div className="flex min-h-screen">
 <Sidebar/>
@@ -12,7 +14,8 @@ return(
 <Navbar/>
 
 <main className="p-12">
-    <Dashboard />
+    <Outlet />
+    
 </main>
 </div>
 </div>

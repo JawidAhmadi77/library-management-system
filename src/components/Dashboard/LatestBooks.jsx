@@ -25,10 +25,10 @@ export default function LatestBooks() {
             return (
                 <div className=''>
             <tr key={data.id} className='border-b hover:bg-gray-100 flex py-2 px-6 justify-between'>
-              <th className='py-3'>{data.id}</th>
-              <th className='py-3'>{data.title}</th>
-              <th className='py-3'>{data.author}</th>
-              <th className={`px-3 pt-3 rounded-full text-center text-white text-sm ${data.status === 'Available' ? "bg-green-500" : "bg-red-500 "}`}>{data.status}</th>
+              <th className='py-3 font-semibold text-gray-600'>{data.id}</th>
+              <th className='py-3 font-semibold text-gray-600'>{data.title}</th>
+              <th className='py-3 font-semibold text-gray-600'>{data.author}</th>
+              <th className={`px-3 font-semibold  pt-3 rounded-full text-center text-sm ${data.status === 'Available' ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700 "}`}>{data.status}</th>
             </tr>
             </div>
             )})}

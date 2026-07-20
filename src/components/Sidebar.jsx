@@ -87,7 +87,7 @@ export default function Sidebar() {
             <span>Issue Books</span>
           </NavLink>
 
-          <NavLink to="/ReturnBooks" className={linkClass}>
+          <NavLink to="/ReturnPage" className={linkClass}>
             <ArrowUturnLeftIcon className="h-6 w-6" />
             <span>Return Books</span>
           </NavLink>

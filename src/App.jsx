@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard";
 import Books from "./pages/‌‌‌‌Books";
 import Students from "./pages/Students";
 import IssuePage from "./pages/IssuePage";
+import ReturnPage from "./pages/ReturnPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/books" element={<Books />} />
           <Route path="/Students" element={<Students />} />
           <Route path="/IssuePage" element={<IssuePage />} />
+          <Route path="/ReturnPage" element={<ReturnPage />} />
         </Route>
 
       </Routes>

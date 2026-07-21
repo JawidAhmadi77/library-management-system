@@ -92,7 +92,7 @@ export default function Sidebar() {
             <span>Return Books</span>
           </NavLink>
 
-          <NavLink to="/Profile" className={linkClass}>
+          <NavLink to="/ProfilePage" className={linkClass}>
             <UserCircleIcon className="h-6 w-6" />
             <span>Profile</span>
           </NavLink>

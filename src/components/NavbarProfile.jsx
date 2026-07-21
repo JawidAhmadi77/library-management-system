@@ -40,7 +40,7 @@ ahmad12@gmail.com
 
 
 <NavLink
-to="/Profile"
+to="/ProfilePage"
 className="flex gap-3 p-3 hover:bg-gray-100 rounded-lg cursor-pointer transition-all duration-200">
 
 <UserIcon className="w-5"/>

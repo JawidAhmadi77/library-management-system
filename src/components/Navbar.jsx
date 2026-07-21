@@ -9,9 +9,9 @@ const pageTitles={
 "/":"Dashboard",
 "/Books":"Books",
 "/Students":"Students",
-"/IssueBooks":"Issue Books",
-"/ReturnBooks":"Return Books",
-"/Profile":"Profile",
+"/IssuePage":"Issue Books",
+"/ReturnPage":"Return Books",
+"/ProfilePage":"Profile",
 "/Logout":"Logout"
 };
 
